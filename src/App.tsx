@@ -6,7 +6,6 @@ import "./theme/variables.scss";
 
 import Router from "./navigation";
 import { Provider } from "react-redux";
-import { PersistGate } from "redux-persist/integration/react";
 
 import { persistor, store } from "./stores";
 
@@ -17,11 +16,9 @@ setupConfig({
 
 const App: React.FC = () => (
   <Provider store={store}>
-    <PersistGate loading={null} persistor={persistor}>
       <IonApp>
         <Router />
       </IonApp>
-    </PersistGate>
   </Provider>
 );
 

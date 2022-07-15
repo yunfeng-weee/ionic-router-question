@@ -3,33 +3,37 @@ import React from "react";
 import { IonReactRouter } from "@ionic/react-router";
 import { Redirect, Route } from "react-router-dom";
 import { IonRouterOutlet } from "@ionic/react";
-import Landing from "../pages/Landing/Landing";
-import Tabs from "./tabs";
-import Topics from "../pages/Topics/Topics";
-import TopicDetail from "../pages/TopicDetail/TopicDetail";
-import UserProfile from "../pages/UserProfile/UserProfile";
+import Test1 from "../pages/pages/test1";
+import Test2 from "../pages/pages/test2";
+import Test3 from "../pages/pages/test3";
+import Test4 from "../pages/pages/test4";
+import Test5 from "../pages/pages/test5";
+import Test6 from "../pages/pages/test6";
 
 export default function Router() {
   return (
     <IonReactRouter>
       <IonRouterOutlet>
-        <Route path="/landing">
-          <Landing />
-        </Route>
-        <Route path="/tabs">
-          <Tabs />
-        </Route>
-        <Route path="/main/topics">
-          <Topics />
-        </Route>
-        <Route path="/main/topic-details">
-          <TopicDetail />
-        </Route>
-        <Route path="/main/user-profile">
-          <UserProfile />
-        </Route>
         <Route exact path="/">
-          <Redirect to="/landing" />
+          <Redirect to="/test/test1" />
+        </Route>
+        <Route exact path="/test/test1">
+          <Test1/>
+        </Route>
+        <Route exact path="/test/test2/:location">
+          <Test2/>
+        </Route>
+        <Route exact path="/test/test3/:location">
+          <Test3/>
+        </Route>
+        <Route exact path="/test/test4/:location">
+          <Test4/>
+        </Route>
+        <Route exact path="/test/test5/:location">
+          <Test5/>
+        </Route>
+        <Route exact path="/test/test6/:location">
+          <Test6/>
         </Route>
       </IonRouterOutlet>
     </IonReactRouter>
