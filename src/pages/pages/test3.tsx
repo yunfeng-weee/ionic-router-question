@@ -9,11 +9,11 @@ const About: React.FC = () => {
   const params = useParams();
 
   useIonViewWillEnter(() => {
-    console.log('test3', params);
+    console.log('useIonViewWillEnter test3', params);
   });
 
   useEffect(() => {
-    console.log('test33', params);
+    console.log('useEffect test3', params);
   }, []);
 
   return (
@@ -21,13 +21,12 @@ const About: React.FC = () => {
       <IonHeader>
       </IonHeader>
       <IonContent>
-        <div onClick={() => history.replace(`/test/test4/${Math.floor(Math.random() * 1000)}`)}>
+        <div onClick={() => history.push(`/test/test4/${Math.floor(Math.random() * 1000)}`)}>
           Test3
         </div>
         {/* <div onClick={() => navigate(`/test/test4/${Math.floor(Math.random() * 1000)}`, 'forward', 'replace')}>
           Test3
         </div> */}
-        <div onClick={() => navigate('/test/test1', 'back', 'pop')}>Test3</div>
         {/* <div onClick={() => navigate('/test/test1', 'back', 'pop')}>Test3</div> */}
       </IonContent>
     </IonPage>
