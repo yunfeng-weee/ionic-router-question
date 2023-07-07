@@ -4108,17 +4108,17 @@ copy-descriptor@^0.1.0:
   resolved "https://registry.yarnpkg.com/copy-descriptor/-/copy-descriptor-0.1.1.tgz#676f6eb3c39997c2ee1ac3a924fd6124748f578d"
   integrity sha512-XgZ0pFcakEUlbwQEVNg3+QAis1FyTL3Qel9FYy8pSkQqoG3PNoT0bOCQtOXcOkur21r2Eq2kI+IE+gsmAEVlYw==
 
-cordova-sqlite-storage-dependencies@4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/cordova-sqlite-storage-dependencies/-/cordova-sqlite-storage-dependencies-4.0.0.tgz#2ffa2d1f2fb3bae868f489b6e174fb58d2926b8f"
-  integrity sha512-dTBxYaX/RGzH6+pp49o4sb3FuHCvhrssaKn1XMJ4LL3f9dnvz3rhFK2LdcWrdFkhOLOndnW/azUkbzZd+WWhRA==
+cordova-sqlite-storage-dependencies@4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/cordova-sqlite-storage-dependencies/-/cordova-sqlite-storage-dependencies-4.1.0.tgz#5b685b3802669f84b567ae34f70ff3d1b367f639"
+  integrity sha512-D0ZXfNkS3z9GO+Ha2rC2odvOOMcx/moL8lpVDFxXqcsCEZbJimuki4wZfdrQrGlNd/d7r4DNodljRmO20v6Ntg==
 
-cordova-sqlite-storage@^6.0.0:
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/cordova-sqlite-storage/-/cordova-sqlite-storage-6.0.0.tgz#25eba8eb4657d2b526c4b753747e6d1533fcb73b"
-  integrity sha512-njRloA3AICaUFztKHXoFfVcwlL7zbvyFxtdZIkK7P+MA3umILXtSKhYAQkSe2GtHr0LBNzJI5xUUqAlZl/Js0A==
+cordova-sqlite-storage@^6.1.0:
+  version "6.1.0"
+  resolved "https://registry.yarnpkg.com/cordova-sqlite-storage/-/cordova-sqlite-storage-6.1.0.tgz#e426935b198006feaf71143bde5af1bd6e0d8477"
+  integrity sha512-ko/edy+u9MJVYrXdB6OXUklH0eIRWpa/Rvang7YkvQvsswc9vZr0pM/Ty6eX0MJtLOMJuCXIOiiHZZZbZSZikw==
   dependencies:
-    cordova-sqlite-storage-dependencies "4.0.0"
+    cordova-sqlite-storage-dependencies "4.1.0"
 
 core-js-compat@^3.21.0, core-js-compat@^3.22.1:
   version "3.23.4"
